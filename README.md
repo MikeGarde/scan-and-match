@@ -1,6 +1,8 @@
 # Scan And Match
 Great for manually finding a particular barcode out of a large group.
 
+[Start Using It Now](https://mikegarde.github.io/scan-and-match/)
+
 Using the text area on the left, place each item you are looking for on a new line. 
 In the example below I am looking for 4 different tracking numbers.
 
