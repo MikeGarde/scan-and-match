@@ -26,7 +26,7 @@ $(document).ready(function () {
     $('#scanValue').val('').focus();
   });
 
-  $('a').on('click', function (e) {
+  $('a#confirm').on('click', function (e) {
     e.preventDefault();
     clearMatch();
   });
