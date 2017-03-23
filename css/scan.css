@@ -1,0 +1,62 @@
+html, div {
+  background-color: #767676; }
+
+p, a {
+  color: #eeeeee; }
+
+a {
+  font-weight: 700; }
+  a:hover {
+    color: #a2a2a2; }
+
+form {
+  margin-top: 15px; }
+
+textarea, input {
+  background-color: #9d9d9d;
+  border: none;
+  color: #eeeeee;
+  font-size: 1.6em;
+  line-height: 1.1em;
+  width: 100%;
+  padding: 0.25em; }
+  textarea::-webkit-input-placeholder, input::-webkit-input-placeholder {
+    font-style: italic;
+    color: #d5d5d5;
+    font-weight: 100; }
+  textarea:-moz-placeholder, input:-moz-placeholder {
+    font-style: italic;
+    color: #d5d5d5;
+    font-weight: 100; }
+  textarea::-moz-placeholder, input::-moz-placeholder {
+    font-style: italic;
+    color: #d5d5d5;
+    font-weight: 100; }
+  textarea:-ms-input-placeholder, input:-ms-input-placeholder {
+    font-style: italic;
+    color: #d5d5d5;
+    font-weight: 100; }
+  textarea:focus, input:focus {
+    outline-color: white; }
+
+ul {
+  margin-top: 1em;
+  list-style: none;
+  padding: 0; }
+  ul li.match {
+    color: #29ee53; }
+
+img.github {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+  height: 100px;
+  width: 100px;
+  opacity: 0.20;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s; }
+  img.github:hover {
+    opacity: 1; }
+
+/*# sourceMappingURL=scan.css.map */

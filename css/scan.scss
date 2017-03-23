@@ -1,0 +1,82 @@
+$textColor: #eeeeee;
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    @content
+  }
+  &:-moz-placeholder {
+    @content
+  }
+  &::-moz-placeholder {
+    @content
+  }
+  &:-ms-input-placeholder {
+    @content
+  }
+}
+
+html, div {
+  background-color: #767676;
+}
+
+p, a {
+  color: $textColor;
+}
+
+a {
+  font-weight: 700;
+
+  &:hover {
+    color: darken($textColor, 30%);
+  }
+}
+
+form {
+  margin-top: 15px;
+}
+
+textarea, input {
+  background-color: #9d9d9d;
+  border: none;
+  color: $textColor;
+  font-size: 1.6em;
+  line-height: 1.1em;
+  width: 100%;
+  padding: 0.25em;
+
+  @include placeholder {
+    font-style: italic;
+    color: darken($textColor, 10%);
+    font-weight: 100;
+  }
+
+  &:focus {
+    outline-color: lighten($textColor, 20%);
+  }
+}
+
+ul {
+  margin-top: 1em;
+  list-style: none;
+  padding: 0;
+
+  li.match {
+    color: #29ee53;
+  }
+}
+
+img.github {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+  height: 100px;
+  width: 100px;
+  opacity: 0.20;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+
+  &:hover {
+    opacity: 1;
+  }
+}
